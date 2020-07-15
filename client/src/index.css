@@ -61,17 +61,47 @@ body {
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+.edit-button {
+  position: absolute;
+  top: 60px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: burlywood;
+}
+.delete-button {
+  position: absolute;
+  top: 95px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: red;
+}
 .save-button:hover {
   background-color: green;
   color: white;
 }
 
-.home-button {
+.home-button{
   padding: 5px 10px;
   background-color: lightskyblue;
+}
+
+.home-button a{
+  border: 1px solid black;
+  font-size: larger;
+  padding: 1em;
 }
 
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.edit-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
